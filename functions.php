@@ -1,4 +1,4 @@
-<?php //Opening PHP tag
+<?php
 
 // FAVICON
 
@@ -7,5 +7,54 @@
   }
   
   add_action( 'wp_head', 'favicon_link' );
+
+  /*
+   * FOUNDATION SETUP
+   *
+   */
+  require_once('library/foundation.php');
+
+  /**
+   * NAV BAR
+   * http://codex.wordpress.org/Function_Reference/wp_nav_menu
+   *
+   */
+
+  require_once('library/navigation');
+
+  /**
+   * TOPBAR
+   * http://codex.wordpress.org/Class_Reference/Walker_Nav_Menu
+   *
+   */ 
+  require_once('library/menu-walker.php');
+
+  /**
+   * WIDGET AREA SIDEBAR/FOOTER
+   * http://codex.wordpress.org/Widgetizing_Themes
+   *
+   */
+  require_once('library/widget-areas.php');
+
+  /**
+   * RETURN ENTRY META INFORMATION FOR POST
+   * http://codex.wordpress.org/Post_Meta_Data_Section
+   *
+   */
+  require_once('library/entry-meta.php');
+
+  /** 
+   * Enqueue scripts ENQUEUE SCRIPTS
+   * http://codex.wordpress.org/Function_Reference/wp_enqueue_script
+   *
+   */
+  require_once('library/enqueue-scripts.php');
+
+  /*
+   * THEME SUPPORT
+   * http://codex.wordpress.org/Function_Reference/add_theme_support
+   *
+   */
+  require_once('library/theme-support.php');
 
 ?>
