@@ -9,10 +9,10 @@
   add_action( 'wp_head', 'favicon_link' );
 
   /*
-   * FOUNDATION SETUP
+   * THEME SETUP
    *
-   */
-  require_once('library/foundation.php');
+  */
+  require_once('library/core.php');
 
   /**
    * NAV BAR
@@ -20,10 +20,10 @@
    *
    */
 
-  require_once('library/navigation');
+  require_once('library/navigation.php');
 
   /**
-   * TOPBAR
+   * 
    * http://codex.wordpress.org/Class_Reference/Walker_Nav_Menu
    *
    */ 
@@ -56,5 +56,6 @@
    *
    */
   require_once('library/theme-support.php');
+
 
 ?>
