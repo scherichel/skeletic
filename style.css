@@ -1,7 +1,7 @@
 /*
  Theme Name:   Skeletic
  Theme URI:    http://demo.scherichel.com/skeletic
- Description:  Foupress is a WordPress starter theme based on Foundation 5 by Zurb
+ Description:  Skeletic is a lightweight WordPress starter theme.
  Author:       Stanley DS Cherichel
  Author URI:   http://scherichel.com
  Version:      1.0.0
@@ -11,7 +11,8 @@
  Text Domain:  skeletic
 */
 
- /* GLOBAL */
+ 
+/* GLOBAL */
 
 .clear {
 	clear: both;

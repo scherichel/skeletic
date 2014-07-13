@@ -8,7 +8,9 @@
 				<div id="right">
 					<a target="_blank" href="http://scherichel.com">Theme by scherichel</a>
 				</div>
+				
 				<div class="clear"></div>
+
 			</footer>
  		<?php wp_footer(); ?>
 	</body>
