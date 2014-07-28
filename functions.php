@@ -34,7 +34,8 @@
    * http://codex.wordpress.org/Widgetizing_Themes
    *
    */
-  require_once('library/widget-areas.php');
+  
+  // require_once('library/widget-areas.php');
 
   /**
    * RETURN ENTRY META INFORMATION FOR POST
@@ -55,7 +56,8 @@
    * http://codex.wordpress.org/Function_Reference/add_theme_support
    *
    */
-  require_once('library/theme-support.php');
+  
+  // require_once('library/theme-support.php');
 
 
 ?>

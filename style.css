@@ -14,29 +14,9 @@
  
 /* GLOBAL */
 
-.clear {
-	clear: both;
+.text-left {
+	text-align: left;
 }
-.left {
-	float: left;
-}
-.right {
-	float: right;
-}
-
-
-
-header {
-	margin: 0px auto;
-	width: 800px;
-}
-article {
-	margin: 0px auto;
-	padding: 5px;
-	width: 800px;
-}
-section {
-	margin: 0px auto;
-	padding: 5px;
-	width: 800px;
+.text-right {
+	text-align: right;
 }
