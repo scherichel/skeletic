@@ -4,6 +4,9 @@
 		<article class="container clearfix">
 
 			<div class="four columns">
+				<div class="post-auth">
+					<?php the_author_posts_link(); ?>
+				</div>
 				<div class="date">
 					<a href="<?php the_permalink() ?>"><?php the_time('m M Y') ?></a>
 				</div>
@@ -11,9 +14,9 @@
 				<div class="no-comments">
 					<?php comments_number(); ?>
 				</div>
-				<div class="post-auth">
-					<?php the_author_posts_link(); ?>
-				</div>
+				<span>
+					<?php the_category(','); ?>
+				</span>
 			</div>
 		
 			<div class="twelve columns">
@@ -29,7 +32,7 @@
 				<ul>
 					<li></li>
 					<!--
-					<li>Posted in <?php the_category(','); ?></li>
+					<li></li>
 					<li></li>
 					!-->
 				</ul>
@@ -46,11 +49,7 @@
 	</div>
 	<?php else : ?>
 
-		<article class="container">
-			<h2>Nothing found</h2>
-			<p>Sorry, but you are looking for something that isnt here</p>
-			<p><a href="<?php echo get_option('home'); ?>">Return to the Homepage</a></p>
-		</article>
+	<?php require_once('content-none.php') ?>
 
 	<?php endif; ?>
 
