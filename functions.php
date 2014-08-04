@@ -12,7 +12,7 @@
    * THEME SETUP
    *
   */
-  require_once('library/core.php');
+  require_once('library/skeleton.php');
 
   /**
    * NAV BAR
