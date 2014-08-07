@@ -30,7 +30,7 @@
   require_once('library/menu-walker.php');
 
   /**
-   * WIDGET AREA SIDEBAR/FOOTER
+   * WIDGET AREA
    * http://codex.wordpress.org/Widgetizing_Themes
    *
    */
@@ -57,7 +57,7 @@
    *
    */
   
-  // require_once('library/theme-support.php');
+  require_once('library/theme-support.php');
 
 
 ?>
