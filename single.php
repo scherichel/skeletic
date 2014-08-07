@@ -6,20 +6,21 @@
 		<div class="container">
 			<div class="eleven columns">
 				<article <?php post_class(); ?> >
-					
-					<h2 class="title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-
+					<div class="title">
+						<h2><?php the_title(); ?></h2>
+					</div>
 					<div id="author">
 						Written by <?php the_author_posts_link(); ?>
 					</div>
 
 					<?php if ( has_post_thumbnail() ) : ?>
-					<div class="post-thumb">
-						<a href="<?php the_permalink() ?>"><?php the_post_thumbnail(); ?></a>
+					<div class="thumb">
+						<?php the_post_thumbnail(); ?>
 					</div>
 					<?php endif; ?>
-					<?php the_content(); ?>
-
+					<div>
+						<?php the_content(); ?>
+					</div>
 					<div class="meta">
 						<ul>
 							<li>Posted  <a href="<?php the_permalink() ?>"><?php the_time('m M Y') ?></a></li>
