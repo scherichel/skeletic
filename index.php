@@ -4,19 +4,21 @@
 		<article class="container clearfix">
 
 			<div class="four columns">
-				<div class="post-auth">
-					<?php the_author_posts_link(); ?>
-				</div>
-				<div class="date">
-					<a href="<?php the_permalink() ?>"><?php the_time('m M Y') ?></a>
-				</div>
+				<div class="meta">
+					<div class="post-auth">
+						<?php the_author_posts_link(); ?>
+					</div>
+					<div class="date">
+						<a href="<?php the_permalink() ?>"><?php the_time('m M Y') ?></a>
+					</div>
 
-				<div class="no-comments">
-					<?php comments_number(); ?>
+					<div class="no-comments">
+						<?php comments_number(); ?>
+					</div>
+					<span>
+						<?php the_category(', '); ?>
+					</span>
 				</div>
-				<span>
-					<?php the_category(','); ?>
-				</span>
 			</div>
 		
 			<div class="twelve columns">
@@ -26,17 +28,6 @@
 
 				<?php the_content('Read more'); ?>
 			</div>
-
-			<div class="clear"></div>
-			<div class="meta">
-				<ul>
-					<li></li>
-					<!--
-					<li></li>
-					<li></li>
-					!-->
-				</ul>
-			</div> 
 		</article>
 	<?php endwhile; ?>
 
