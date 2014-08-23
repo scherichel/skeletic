@@ -13,7 +13,7 @@
 						<?php the_author_posts_link(); ?>
 					</div>
 					<div class="date">
-						<a href="<?php the_permalink() ?>"><?php the_time('m M Y') ?></a>
+						<a href="<?php the_permalink() ?>"><?php the_time('l, F j, Y') ?></a>
 					</div>
 
 					<div class="no-comments">
@@ -46,11 +46,6 @@
 	</aside>
 </div>
 
-	<div class="pagination container">
-		<ul>
-			<li class="older"><?php next_posts_link('Older') ?></li>
-			<li class="newer"><?php previous_posts_link('Newer') ?></li>
-		</ul>
-	</div>
+	<?php skeleton_pagination(); ?>
 
 <?php get_footer(); ?>
