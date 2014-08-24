@@ -41,15 +41,16 @@
   </head>
 
   <body>
-    <div class="container">
-
-      <nav class="ten columns">
-          <p>Nav will go here</p>
+    <header id="top">
+      <nav>
+      <div class="container">
+          <div class="title-area">
+            <a class="name" href="<?php bloginfo('url') ?>"><?php bloginfo('name') ?></a>  
+          </div>
+          <div class="nav" data-menu-name="<?php bloginfo('name') ?>">
+            <?php header_menu(); ?>
+          </div>
+        </div>
       </nav>
-
-      <div class="six columns">
-        <h1><a href="<?php bloginfo('url') ?>"><?php bloginfo('name') ?></a></h1>
-        <span><?php bloginfo('description'); ?></span>  
-      </div>
-    </div>
+    </header>
                 

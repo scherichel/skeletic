@@ -1,13 +1,5 @@
 <?php
 
-// FAVICON
-
-  function favicon_link() {
-  	echo '<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />' . "\n";
-  }
-  
-  add_action( 'wp_head', 'favicon_link' );
-
   /*
    * THEME SETUP
    *
@@ -42,7 +34,7 @@
    * http://codex.wordpress.org/Post_Meta_Data_Section
    *
    */
-  require_once('library/entry-meta.php');
+  // require_once('library/entry-meta.php');
 
   /** 
    * Enqueue scripts ENQUEUE SCRIPTS
