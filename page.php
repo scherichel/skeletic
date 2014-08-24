@@ -9,9 +9,6 @@
 					<div class="title">
 						<h2><?php the_title(); ?></h2>
 					</div>
-					<div id="author">
-						Written by <?php the_author_posts_link(); ?>
-					</div>
 
 					<?php if ( has_post_thumbnail() ) : ?>
 					<div class="thumb">
@@ -20,12 +17,6 @@
 					<?php endif; ?>
 					<div class="content">
 						<?php the_content(); ?>
-					</div>
-					<div class="meta">
-						<ul>
-							<li>Posted  <a href="<?php the_permalink() ?>"><?php the_time('m M Y') ?></a></li>
-							<li>Posted in <?php the_category(','); ?></li>
-						</ul>
 					</div>
 				</article>
 
