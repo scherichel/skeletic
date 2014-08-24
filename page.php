@@ -25,13 +25,7 @@
 				</div>
 			</div>
 			<div class="five columns">
-				<p>Sidebar will go here</p>
-				<p>Sidebar will go here</p>
-				<p>Sidebar will go here</p>
-				<p>Sidebar will go here</p>
-				<p>Sidebar will go here</p>
-				<p>Sidebar will go here</p>
-				<p>Sidebar will go here</p>
+				<?php dynamic_sidebar("left-widgets"); ?>
 			</div>	
 		</div>
 		<?php endwhile; ?>

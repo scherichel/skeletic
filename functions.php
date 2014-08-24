@@ -27,7 +27,7 @@
    *
    */
   
-  // require_once('library/widget-areas.php');
+  require_once('library/widget-areas.php');
 
   /**
    * RETURN ENTRY META INFORMATION FOR POST
