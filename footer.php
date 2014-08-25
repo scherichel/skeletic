@@ -1,16 +1,12 @@
 
 		<footer class="container">		
-			<div class="sixteen columns">
-				<p>
-					Footer sidebar here
-				</p>
-			</div>
+			<?php dynamic_sidebar("footer-widgets"); ?>
 		</footer>
 		<div class="legal container">
 			<div class="eight columns">
 				Copyright <?php echo date('Y'); ?> (Legal goes here)
 			</div>
-			<div class="eight">
+			<div class="text-right eight">
 				<a target="_blank" href="http://scherichel.com">Theme by scherichel</a>				
 			</div>
 		</div>
