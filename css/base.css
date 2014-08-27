@@ -268,4 +268,19 @@
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
 
+	sub,
+	sup {
+	  font-size: 75%;
+	  line-height: 0;
+	  position: relative;
+	}
+		sup { top: -0.5em; } 
+		sub { bottom: -0.25em; }
+	pre,
+	code {
+		background: #F7F5F2;
+		padding: 10px;
+		border-radius: 3px;
+	}
+
 
