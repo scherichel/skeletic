@@ -20,6 +20,8 @@
 
 /* #Site Styles
 ================================================== */
+	
+	.legal a { text-decoration: none; }
 
 /* #Image Styles
 ================================================== */
@@ -170,6 +172,7 @@
 /* #Pagination
 ================================================== */
 	
+	.pagination { margin: 10px; }
 	.pagination li {
 		display: inline-block;
 	}
