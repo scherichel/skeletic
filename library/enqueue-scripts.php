@@ -24,12 +24,10 @@
 
     // Register
     wp_register_script( 'jquery', get_template_directory_uri() . '/js/jquery.min.js', array(), '1.11.1', false );
-    wp_register_script( 'menu', get_template_directory_uri() . '/js/nav.js', array(), '0.0.5', false );
     wp_register_script( 'core', get_template_directory_uri() . '/js/core.js', array(), '1.0.0', false );
 
 
     wp_enqueue_script('jquery');
-    wp_enqueue_script('menu');
     wp_enqueue_script('core');
   }
 
