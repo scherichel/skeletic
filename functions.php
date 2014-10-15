@@ -4,7 +4,7 @@
    * THEME SETUP
    *
   */
-  require_once('library/skeleton.php');
+  require_once('library/skeletic.php');
 
   /**
    * NAV BAR
