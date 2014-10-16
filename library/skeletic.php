@@ -1,7 +1,7 @@
 <?php
 	
 	// Pagination
-	function skeleton_pagination() {
+	function skeletic_pagination() {
 		global $wp_query;
 	 
 		$big = 999999999; // This needs to be an unlikely integer
@@ -31,4 +31,4 @@
 			echo '</div><!--// end .pagination -->';
 		}
 	}
-?> 
+?>

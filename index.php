@@ -41,6 +41,6 @@
 		</aside>
 	</div>
 
-<?php skeleton_pagination(); ?>
+<?php skeletic_pagination(); ?>
 
 <?php get_footer(); ?>
