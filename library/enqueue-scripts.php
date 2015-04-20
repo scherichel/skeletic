@@ -23,7 +23,7 @@
     wp_deregister_script('jquery');
 
     // Register
-    wp_register_script( 'jquery', get_template_directory_uri() . '/js/jquery.min.js', array(), '1.11.1', false );
+    wp_register_script( 'jquery', get_template_directory_uri() . 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js', array(), '2.1.3', false );
     wp_register_script( 'core', get_template_directory_uri() . '/js/core.js', array(), '1.0.0', false );
 
 
